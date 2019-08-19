@@ -7,8 +7,8 @@
    N.B. Download and save in a secure place.
 
 2. Create 2 SNS Topic with name:
-	a. CPU-Alarm
-	b. Restart-App
+   - CPU-Alarm
+   - Restart-App
 	
 3. Create S3Bucket "versioned" with name "lambda-functions-cloud-phoenix-kata" and upload two zip file with Lambda Functions (written in Python) "startNodeJSApp-ASG.py" and "restartNodeJSApp-ASG.py"	
 
