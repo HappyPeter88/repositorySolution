@@ -168,7 +168,7 @@ Resources:
       IamInstanceProfile: !Ref EC2SystemManagerCWProfile
       ImageId: ami-06358f49b5839867c
       InstanceMonitoring: true
-      InstanceType: t2.micro
+      InstanceType: c4.large
       KeyName: nodejs
       LaunchConfigurationName: LC-UbuntuNodeJS
       SecurityGroups: 
